@@ -1,15 +1,15 @@
-import { Box, Center, ChakraProvider, Input } from "@chakra-ui/react"
-import { Botao } from "./botao/botao"
-import { Header } from "./Header/Header"
+import { Box, Center, ChakraProvider, Input } from "@chakra-ui/react";
+import { Botao } from "./botao/botao";
+import { Header } from "./Header/Header";
 
 interface ICard {
-  id: number,
-  paragraph: string,
-  details: string
+  id: number;
+  paragraph: string;
+  details: string;
 }
 
-export const Card = ({ id, paragraph, details }: ICard) => {
-  return(
+export const Card = () => {
+  return (
     <ChakraProvider>
       <Header />
       <Box minHeight="100vh" backgroundColor="#9413dc" padding="25px">
@@ -23,5 +23,5 @@ export const Card = ({ id, paragraph, details }: ICard) => {
         </Box>
       </Box>
     </ChakraProvider>
-  )
-}
+  );
+};

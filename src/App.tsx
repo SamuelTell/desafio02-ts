@@ -5,7 +5,7 @@ import { Botao } from "./components/botao/botao";
 import { Card } from "./components/Card";
 
 function App() {
-  return <Card id={0} paragraph={""} details={""} />;
+  return <Card />;
 }
 
 export default App;

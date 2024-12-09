@@ -1,3 +1,5 @@
 export const login = (): void => {
-    alert('Bem vinda!')
-}
+  const minutos = new Date().getMinutes();
+  const segundos = new Date().getSeconds();
+  alert(`Bem vinda! ${minutos}:${segundos}`);
+};
